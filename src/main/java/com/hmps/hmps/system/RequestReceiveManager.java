@@ -27,11 +27,10 @@ public class RequestReceiveManager {
         // print out the text of every message
         System.out.println("All messages:");
         System.out.println(readObject);
-       // listOfMessages.forEach((msg)-> System.out.println(msg.getText()));
 
-        //System.out.println("Closing sockets.");
-       // ss.close();
-        //socket.close();
+        System.out.println("Closing sockets.");
+        ss.close();
+        socket.close();
 
     }
 
